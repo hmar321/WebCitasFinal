@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>Menú</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="css/interfaz.css">
+</head>
+
+<body>
+
+  <div id="h_index" class="p-5 bg-dark text-white text-center">
+    <h1 class="texto-borde">BuscoPareja</h1>
+    <h3 class="texto-borde">Empieza algo real</h3>
+  </div>
+
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Menú</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="registrarse.html">Registrarse</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.html">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="paises.jsp">Países</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="centros.jsp">Centros</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-sm-4">
+        <a href="paises.jsp">
+          <h2>Paises activos</h2>
+        </a>
+        <a href="paises.jsp"><img src="images/paises.png" height="200px" alt="paises"></a>
+        <p>Una vez que hayas creado tu perfil, podrás consultarlo en todos tus viajes,
+          también desde el extranjero. Pero recuerda, no estamos presentes en todo el
+          mundo y tendrás que buscar tu país dentro de nuestra página.</p>
+        <h3 class="mt-4">Links</h3>
+        <p>También te puede interesar</p>
+        <ul class="nav nav-pills flex-column">
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="centros.jsp">Centros</a>
+          </li>
+        </ul>
+        <hr class="d-sm-none">
+      </div>
+      <div class="col-sm-8">
+        <a href="registrarse.html">
+          <h2>Regístrate</h2>
+        </a>
+        <a href="registrarse.html"><img src="images/registro.png" class="rounded" height="20%" alt="registro"></a>
+        <p>Maximiza tus posibilidades de encontrar a alguien gracias a nuestro
+          sitio de citas. Conecta con miles de solteros estés donde estés y
+          encuentra pareja. ¡Prueba ya! Atención al Cliente. Relaciones seras.
+          Portal seguro. Web móvil optimizada. Perfiles detallados.</p>
+
+        <h2 class="mt-5">Sobre nosotros</h2>
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+          <!-- Indicators/dots -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+          </div>
+
+          <!-- The slideshow/carousel -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/grupo.png" class="rounded" alt="Equipo" class="d-block" style="width:100%">
+            </div>
+            <div class="carousel-item">
+              <img src="images/pareja1.png" class="rounded" alt="Pareja1" class="d-block" style="width:100%">
+            </div>
+            <div class="carousel-item">
+              <img src="images/pareja2.png" class="rounded" alt="Pareja2" class="d-block" style="width:100%">
+            </div>
+          </div>
+
+          <!-- Left and right controls/icons -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+        <p>BuscoPareja surgió en París, la idea nació en una cena entre amigos,
+          rodeado por varios divorciados que comentaban que cada vez era más
+          difícil encontrar nuevas fórmulas para conocer a gente y encontrar
+          pareja.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-5 p-4 bg-dark text-white text-center">
+    <h2>Contacto</h2>
+    <p>
+      Empresa: Almaraz´s LovingAdvice<br>
+      Dirección: Calle Loveless 9 1231 Nowhere<br>
+      Teléfono: (+12) 48 648 15 15. Email: alm@heartbreaker.es
+    </p>
+  </div>
+
+</body>
+
+</html>
